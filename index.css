@@ -1,0 +1,128 @@
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  height: 100vh;
+  text-align: center;
+  padding-top: 50vh;
+  border: solid 1px red;
+  white-space: nowrap ;
+}
+
+.spanbox {
+  height: 100vh;
+  text-align: center;
+  padding-top: 50vh;
+}
+
+h1 {
+  position: sticky;
+  top: 50vh;
+}
+
+.a {
+  position: sticky;
+  top: 50vh;
+  font-size: 100px;
+}
+.b {
+  position: sticky;
+  top: 40vh;
+  font-size: 100px;
+}
+.c {
+  position: sticky;
+  top: 36vh;
+  font-size: 100px;
+}
+.d {
+  position: sticky;
+  top: 27vh;
+  font-size: 100px;
+}
+.e {
+  position: sticky;
+  top: 32vh;
+  font-size: 100px;
+} */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  height: 100vh;
+  text-align: center;
+}
+
+.spanbox {
+  height: 100vh;
+  text-align: center;
+  padding-top: 50vh;
+}
+
+.first {
+  height: 100vh;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second {
+  height: 100vh;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}
+.third {
+  height: 100vh;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}
+
+.fourth {
+  height: 100vh;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -80vh;
+}
+
+h1 {
+  top: 50vh;
+}
+
+.a {
+  position: sticky;
+  top: 50vh;
+  font-size: 100px;
+}
+.b {
+  position: sticky;
+  top: 40vh;
+  font-size: 100px;
+}
+.c {
+  position: sticky;
+  top: 36vh;
+  font-size: 100px;
+}
+.d {
+  position: sticky;
+  top: 27vh;
+  font-size: 100px;
+}
+.e {
+  position: sticky;
+  top: 32vh;
+  font-size: 100px;
+}
